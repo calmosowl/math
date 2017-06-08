@@ -22,9 +22,11 @@ console.dir(math);
 let example = document.querySelectorAll('.example');
 example = Array.prototype.slice.call(example);
 
-example.forEach(function(example) {
-  console.log( example );
-});
+let arr = [];
+// example.forEach(function(example) {
+//     console.log( example );
+// });
+
 
 })();
 }, false);

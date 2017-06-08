@@ -1,0 +1,540 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"deviation"
+			],
+			[
+				"set",
+				"setCurrentValue"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"get",
+				"getLog"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"p",
+				"pushRoll"
+			],
+			[
+				"leg",
+				"length-1"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"c",
+				"class\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 332.0,
+		"last_filter": "color",
+		"selected_items":
+		[
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"color ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"In",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"Mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"anaco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"select_color_scheme"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/calmos/git/math"
+	],
+	"file_history":
+	[
+		"/home/calmos/git/math/index.html",
+		"/home/calmos/git/math/js/math.js",
+		"/home/calmos/git/frontend-template/src/js/common.js",
+		"/home/calmos/git/frontend-template/package.json",
+		"/home/calmos/.zshrc",
+		"/home/calmos/.zsh_history",
+		"/home/calmos/git/email/dist (2)/index.html",
+		"/home/calmos/git/email/dist/index_en.html",
+		"/home/calmos/Documents/mail-tamplate/dist/index.html",
+		"/home/calmos/Documents/email.html",
+		"/home/calmos/git/frontend-template/src/index.html",
+		"/home/calmos/git/frontend-template/src/test.html",
+		"/home/calmos/git/email/tamplate/index.html",
+		"/home/calmos/git/email/dist/index.html",
+		"/home/calmos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/calmos/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/calmos/git/frontend-template/src/js/source/watch.js",
+		"/home/calmos/git/frontend-template/src/sass/style.scss",
+		"/home/calmos/git/frontend-template/gulpfile.js",
+		"/home/calmos/git/frontend-template/src/modules/header.html",
+		"/home/calmos/git/frontend-template/web/css/style.css",
+		"/home/calmos/git/frontend-template/node_modules/gulp-watch/index.js",
+		"/home/calmos/Documents/rotation.svg",
+		"/run/user/1000/gvfs/ftp:host=192.168.15.131,port=3721/projects/try.html",
+		"/home/calmos/git/frontend-template/src/modules/meta.html",
+		"/home/calmos/git/frontend-template/src/sass/test.scss",
+		"/opt/vivaldi/resources/vivaldi/browser.html",
+		"/home/calmos/Documents/example.txt",
+		"/home/calmos/.config/vivaldi/Default/Extensions/fjnbnpbmkenffdnngjfgmeleoegfcffe/1.7.9_0/codemirror/theme/pastel-on-dark.css",
+		"/opt/vivaldi/resources/vivaldi/style/common.css",
+		"/home/calmos/.config/vivaldi/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.12.1_0/css/common.css",
+		"/home/calmos/.config/vivaldi/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/5817.313.0.3_0/cast_setup/index.html",
+		"/home/calmos/projects/localhost.casino-market.com/frontend/project/src/sass/main.sass",
+		"/home/calmos/git/frontend-template/bower.json",
+		"/home/calmos/git/calmosowl.github.io/css/main.css",
+		"/home/calmos/git/frontend-template/src/fonts/Roboto-Black.ttf",
+		"/home/calmos/.themes/Paper/index.theme",
+		"/home/calmos/git/02-angular2-tour-of-heroes-initial-setup/app/app.component.ts",
+		"/home/calmos/git/02-angular2-tour-of-heroes-initial-setup/styles.css",
+		"/home/calmos/git/02-angular2-tour-of-heroes-initial-setup/index.html",
+		"/etc/hosts",
+		"/home/calmos/.config/vivaldi/Default/Extensions/egfhcfdfnajldliefpdoaojgahefjhhi/0.6.6_0/dist/styles/themes/solarized-light.css",
+		"/home/calmos/git/calmosowl.github.io/package.json",
+		"/home/calmos/git/calmosowl.github.io/index.html",
+		"/home/calmos/git/calmosowl.github.io/gulpfile.js",
+		"/home/calmos/git/calmosowl.github.io/bower.json",
+		"/home/calmos/Documents/country.sql",
+		"/opt/fman/Plugins/Core/Theme (Linux).css",
+		"/home/calmos/.config/fman/Plugins/User/Core Settings (Linux).json",
+		"/home/calmos/.config/terminator/config",
+		"/home/calmos/projects/localhost.casino-market.com/.htaccess",
+		"/etc/apache2/sites-available/basic.dev.conf",
+		"/home/calmos/Downloads/txt",
+		"/home/calmos/projects/localhost.casino-market.com/index.php",
+		"/home/calmos/projects/logs/basic.dev-error.log",
+		"/etc/apache2/sites-available/localhost.casino-market.com.conf",
+		"/home/calmos/projects/basic.dev/controllers/SiteController.php",
+		"/home/calmos/projects/localhost.onlinecasino-market.com/.idea/workspace.xml",
+		"/usr/share/cowsay/cows/milk.cow",
+		"/usr/share/cowsay/cows/pony.cow",
+		"/usr/share/cowsay/cows/ren.cow",
+		"/usr/share/cowsay/cows/snowman.cow",
+		"/usr/share/cowsay/cows/sodomized-sheep.cow",
+		"/usr/share/cowsay/cows/unipony-smaller.cow",
+		"/usr/share/cowsay/cows/bud-frogs.cow",
+		"/usr/share/cowsay/cows/apt.cow",
+		"/usr/share/cowsay/cows/bong.cow",
+		"/usr/share/cowsay/cows/cock.cow",
+		"/usr/share/cowsay/cows/cower.cow",
+		"/usr/share/cowsay/cows/duck.cow",
+		"/usr/share/cowsay/cows/head-in.cow",
+		"/usr/share/cowsay/cows/gnu.cow",
+		"/usr/share/cowsay/cows/mech-and-cow.cow",
+		"/usr/share/cowsay/cows/kosh.cow",
+		"/usr/share/cowsay/cows/meow.cow",
+		"/usr/share/cowsay/cows/tux.cow",
+		"/usr/share/cowsay/cows/bunny.cow",
+		"/usr/share/cowsay/cows/vader-koala.cow",
+		"/home/calmos/.config/ubuntu-ui-toolkit/theme.ini",
+		"/home/calmos/.config/monitors.xml",
+		"/home/calmos/projects/basic.dev/.htaccess",
+		"/home/calmos/projects/basic.dev/web/index.php",
+		"/home/calmos/Документы/mycolors",
+		"/etc/xdg/autostart/nautilus-autostart.desktop",
+		"/usr/share/applications/nautilus-autorun-software.desktop",
+		"/usr/share/applications/nautilus.desktop",
+		"/home/calmos/Documents/design/CM/favicons/manifest.json",
+		"/home/calmos/.config/chromium/Default/Extensions/cieekmjjdkckhpidgaffphlaljdfhhab/m.css",
+		"/home/calmos/.config/chromium/Default/Extensions/devtools/manifest.json",
+		"/home/calmos/.config/chromium/Default/Extensions/devtools/style.css",
+		"/home/calmos/.config/terminator/config.old",
+		"/home/calmos/Documents/btnhover.css",
+		"/home/calmos/git/settings/.zshrc",
+		"/etc/apache2/apache2.conf",
+		"/home/calmos/Документы/layouts.php",
+		"/etc/mysql/mysql.conf.d/mysqld.cnf",
+		"/home/calmos/git/settings/.bashrc",
+		"/etc/mysql/my.cnf",
+		"/home/calmos/projects/logs/localhost.casino-market.com-error.log",
+		"/home/calmos/.xsession-errors",
+		"/home/calmos/.bash_history",
+		"/home/calmos/projects/localhost.casino-market.com/test",
+		"/etc/apache2/envvars",
+		"/etc/host.conf"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"medi",
+			"getLog",
+			"this.getParams",
+			"gulp",
+			"sass",
+			".png",
+			"tele",
+			"map",
+			"logo",
+			"/assets/img/",
+			"head",
+			"src=\"",
+			"container",
+			"row",
+			".row",
+			"src=\"assets/img/",
+			"/assets/img",
+			"<span style",
+			"<span style=\"color:#f3f3f3",
+			"/assets/img",
+			"this.transform",
+			"rotate",
+			"chart_div",
+			"this.data.duration",
+			"none",
+			"-12",
+			"data-rotate=\"12",
+			"12",
+			"style",
+			"rotate",
+			"i",
+			"prevArr",
+			"Deg",
+			"rollSeries",
+			" data-rotate=\"0\" data-duration=\"5000ms\"",
+			"transition-",
+			"  ",
+			"spaceamounts",
+			" @include rotate3d",
+			"; }",
+			"$angle",
+			"space",
+			"spaceamounts",
+			"$sec",
+			"el",
+			"alert",
+			"paused",
+			"running",
+			"paused",
+			"array[3]",
+			" ",
+			"roller",
+			"s",
+			"elemArr",
+			"roller",
+			"el",
+			"animation",
+			"\n\t\t\t\t\t\t\tanimation",
+			"\t\t\t\t\t\t\t",
+			"real",
+			":1",
+			"output",
+			"qtyPerTick",
+			"echo",
+			"$con",
+			"17px",
+			"roller",
+			"cell",
+			"-cell",
+			"cell",
+			"to",
+			"  ",
+			"span",
+			"rotateY",
+			"/span>",
+			"></",
+			"cell",
+			"jackpot",
+			"#cell-",
+			"document.querySelector",
+			"document",
+			"cell",
+			".styles-section",
+			"root-view",
+			"20",
+			"num",
+			"delta",
+			"deltaToArray",
+			"count",
+			"test",
+			"gulp",
+			"has-text",
+			"text",
+			"Руководство",
+			"Март",
+			"09",
+			"<strong>Период обучения</strong> Сентябрь 1998 – Июнь 2003",
+			"Период обучения",
+			":",
+			"color:",
+			"doc",
+			"libs",
+			"bower",
+			"libs",
+			"web",
+			"--geometry",
+			".btn-3",
+			"}",
+			"{",
+			";",
+			"chown",
+			"domains",
+			"localhost.site.com"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/image/",
+			"/",
+			"src=\"/",
+			"containerowl",
+			"rowowl",
+			"src=\"",
+			"assets/img",
+			"assets",
+			"img",
+			"roller",
+			"rotateX",
+			"",
+			"docs",
+			"doc",
+			"",
+			"projects",
+			"localhost.casino-market.com"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/Shell Script (Git).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
