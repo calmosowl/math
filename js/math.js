@@ -9,11 +9,11 @@ function getLog(msg) {
 }
 
 var math = new MathMashine({
-	min: -20,
+	min: 0,
 	max: 20
 });
 
-//math.setNums;
+
 getLog(math.data.nums);
 getLog(math.data.result);
 
@@ -22,10 +22,25 @@ console.dir(math);
 let example = document.querySelectorAll('.example');
 example = Array.prototype.slice.call(example);
 
-let arr = [];
+
+
 // example.forEach(function(example) {
 //     console.log( example );
 // });
+
+/*==========================*/
+// for (var i = 0; i < example.length; i++) {
+//     example[i].children[0].setAttribute('data-num', getRandomArbitary(0, 10));
+//     example[i].children[0].textContent = Math.abs(+example[i].children[0].getAttribute('data-num'));
+//     example[i].children[2].setAttribute('data-num', getRandomArbitary(0, -10));
+//     example[i].children[2].textContent = Math.abs(+example[i].children[2].getAttribute('data-num'));
+//     if(+example[i].children[2].getAttribute('data-num') > 0)
+//     	example[i].children[1].textContent = "+";
+//     else example[i].children[1].textContent = "-";
+//     var result = +example[i].children[0].getAttribute('data-num') + +example[i].children[2].getAttribute('data-num');
+//     example[i].children[4].setAttribute('result', result);
+// }
+/*=========================*/
 
 
 })();
@@ -39,7 +54,8 @@ function MathMashine(options){
 	this.data = {
 		nums: [],
 		octothorpe: '',
-		result: 0
+		result: 0,
+		stamp: []
 	};
 
 	function random(min, max) {
@@ -47,16 +63,31 @@ function MathMashine(options){
 		rand = Math.round(rand);
 		return rand;
 	}
+
+	function returnThis() {
+    	var operator = Math.floor(Math.random() * arguments.length);
+    	var operatorSign = arguments[operator];
+    	return operatorSign;
+	}
 	
+	function getStamp(obj) {
+  		for (var key in obj) {
+			that.data.stamp.push( obj[key] );
+		}
+    return that.data.stamp;
+}
+
 	this.data.nums = this.numsPrototype.map(function(item) {
   		return item = random(that.min, that.max);
 	});
 
+	this.data.octothorpe = returnThis("+", "-");
+	
 	this.data.result = this.data.nums.reduce(function(sum, current) {
   		return sum + current;
 	});
 
-	this.data.octothorpe = "";
+	getStamp(this.data);
 }
 
 /*O_O_O_O_O*/
