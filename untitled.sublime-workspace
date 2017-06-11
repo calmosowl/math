@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"de",
-				"deviation"
+				"set",
+				"setNums"
 			],
 			[
-				"set",
-				"setCurrentValue"
+				"de",
+				"deviation"
 			],
 			[
 				"va",
@@ -68,10 +68,29 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 205,
+				"buffer_size": 3016,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/math.js",
+			"settings":
+			{
+				"buffer_size": 2263,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/calmos/git/frontend-template/src/js/counter.js",
+			"settings":
+			{
+				"buffer_size": 6391,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -149,10 +168,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/calmos/git/math"
+		"/home/calmos/git/math",
+		"/home/calmos/git/math/js"
 	],
 	"file_history":
 	[
+		"/home/calmos/git/math/.gitignore",
 		"/home/calmos/git/math/index.html",
 		"/home/calmos/git/math/js/math.js",
 		"/home/calmos/git/frontend-template/src/js/common.js",
@@ -260,7 +281,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -274,6 +295,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getRandomArbitary",
+			"//",
 			"medi",
 			"getLog",
 			"this.getParams",
@@ -426,30 +449,88 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 205,
+						"buffer_size": 3016,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								690,
+								690
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/zzz A File Icon zzz/aliases/Shell Script (Git).sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 598.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/math.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/calmos/git/frontend-template/src/js/counter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1522,
+								1522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -457,7 +538,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -494,7 +575,7 @@
 	"project": "untitled.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -531,7 +612,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":

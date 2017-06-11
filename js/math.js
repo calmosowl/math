@@ -10,36 +10,61 @@ function getLog(msg) {
 
 var math = new MathMashine({
 	min: 0,
-	max: 20
+	max: 20,
+	octothorpe: ['+', '-', '*']
 });
 
-
-getLog(math.data.nums);
-getLog(math.data.result);
-
-console.dir(math);
-
-let example = document.querySelectorAll('.example');
+var example = document.querySelectorAll('.example');
 example = Array.prototype.slice.call(example);
-
-
-
-// example.forEach(function(example) {
-//     console.log( example );
-// });
-
+// var section = document.getElementById('section');
+// var elements = section.getElementsByTagName('input');
+function examination() {
+	var input = example[i].children[4];
+    input.onkeydown = (ev) => {
+		if(ev.keyCode == 13){
+			if(input.value == input.getAttribute('result')) {
+				input.setAttribute('style', 'color: rgba(10, 242, 101, 0.4)');
+				
+			} else {input.setAttribute('style', 'color: rgba(242, 10, 10, 0.4)');}
+		}
+	}
+}
 /*==========================*/
-// for (var i = 0; i < example.length; i++) {
-//     example[i].children[0].setAttribute('data-num', getRandomArbitary(0, 10));
-//     example[i].children[0].textContent = Math.abs(+example[i].children[0].getAttribute('data-num'));
-//     example[i].children[2].setAttribute('data-num', getRandomArbitary(0, -10));
-//     example[i].children[2].textContent = Math.abs(+example[i].children[2].getAttribute('data-num'));
-//     if(+example[i].children[2].getAttribute('data-num') > 0)
-//     	example[i].children[1].textContent = "+";
-//     else example[i].children[1].textContent = "-";
-//     var result = +example[i].children[0].getAttribute('data-num') + +example[i].children[2].getAttribute('data-num');
-//     example[i].children[4].setAttribute('result', result);
-// }
+for (var i = 0; i < example.length; i++) {
+	math.setNums(example[i].children[0]);
+	math.setNums(example[i].children[2]);
+	math.setOctothorpe(example[i].children[1]);
+
+	switch((example[i].children[1]).textContent) {
+		case '+': 
+			var result = +example[i].children[0].textContent + +example[i].children[2].textContent;
+			example[i].children[4].setAttribute('result', result);
+
+		break
+
+		case '-':
+			var result = +example[i].children[0].textContent - +example[i].children[2].textContent;
+			example[i].children[4].setAttribute('result', result);
+		break
+
+		case '*':
+			var result = +example[i].children[0].textContent * +example[i].children[2].textContent;
+			example[i].children[4].setAttribute('result', result);
+		break
+
+		case '/':
+			var result = +example[i].children[0].textContent / +example[i].children[2].textContent;
+			example[i].children[4].setAttribute('result', result);
+		break
+
+		default:
+			var result = +example[i].children[0].textContent + +example[i].children[2].textContent;
+			example[i].children[4].setAttribute('result', result);
+		break
+	}
+	examination();
+	//console.log( input.value + ': ' + input.getAttribute('result') );
+}
 /*=========================*/
 
 
@@ -50,6 +75,7 @@ function MathMashine(options){
 	let that = this;
 	this.max = options&&options.max ? options.max: 10;
 	this.min =  options&&options.min ? options.min: 0;
+	this.octothorpe = options&&options.octothorpe ? options.octothorpe: ['+', '-'];
 	this.numsPrototype = [0,0];
 	this.data = {
 		nums: [],
@@ -64,9 +90,9 @@ function MathMashine(options){
 		return rand;
 	}
 
-	function returnThis() {
-    	var operator = Math.floor(Math.random() * arguments.length);
-    	var operatorSign = arguments[operator];
+	function randomOctothorpe(arr) {
+    	var operator = Math.floor(Math.random() * arr.length);
+    	var operatorSign = arr[operator];
     	return operatorSign;
 	}
 	
@@ -76,18 +102,26 @@ function MathMashine(options){
 		}
     return that.data.stamp;
 }
-
+	
 	this.data.nums = this.numsPrototype.map(function(item) {
   		return item = random(that.min, that.max);
 	});
 
-	this.data.octothorpe = returnThis("+", "-");
+	//this.data.octothorpe = returnThis("+", "-");
 	
 	this.data.result = this.data.nums.reduce(function(sum, current) {
   		return sum + current;
 	});
 
 	getStamp(this.data);
+
+	this.setNums = (el) => {
+		el.textContent = random(that.min, that.max);
+	}
+
+	this.setOctothorpe = (el) => {
+		el.textContent = randomOctothorpe(that.octothorpe);
+	}
 }
 
 /*O_O_O_O_O*/
