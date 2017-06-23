@@ -16,16 +16,14 @@ var math = new MathMashine({
 
 var example = document.querySelectorAll('.example');
 example = Array.prototype.slice.call(example);
-// var section = document.getElementById('section');
-// var elements = section.getElementsByTagName('input');
 function examination() {
 	var input = example[i].children[4];
     input.onkeydown = (ev) => {
 		if(ev.keyCode == 13){
-			if(input.value == input.getAttribute('result')) {
+			if(input.value == input.getAttribute('result')) 
 				input.setAttribute('style', 'color: rgba(10, 242, 101, 0.4)');
-				
-			} else {input.setAttribute('style', 'color: rgba(242, 10, 10, 0.4)');}
+			else 
+				input.setAttribute('style', 'color: rgba(242, 10, 10, 0.4)');
 		}
 	}
 }

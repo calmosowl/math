@@ -3,6 +3,12 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/calmos/git/electron-quick-start"
+		},
+		{
+			"path": "/home/calmos/git/mathapp"
 		}
 	]
 }
