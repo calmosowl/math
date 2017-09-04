@@ -1,3 +1,3 @@
-#Math for kids#
-I created this page for my son. 
-Now math is not so boring. ;) 
+## Math for kids
+I created [this page](https://calmosowl.github.io/projects/math/) for my son. 
+Now math is not so boring. ;)
